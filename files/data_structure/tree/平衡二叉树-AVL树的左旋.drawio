@@ -1,0 +1,154 @@
+<mxfile host="65bd71144e">
+    <diagram id="8uxDoUME2Htshu07PI7C" name="Page-1">
+        <mxGraphModel dx="2196" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="&lt;font&gt;&lt;b&gt;左旋无冲突&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="230" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;平衡因子=-2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="165" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=5.58;dx=31.99;arrowHead=30.02;rotation=37;flipH=0;flipV=1;direction=east;perimeterSpacing=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="220" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.68;dx=16.19;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="232" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="278" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;10&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="278" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="28" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="28" target="25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;7&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="198" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="6" target="8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="160" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;10&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="8" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;7&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="240" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230.79" y="282" as="sourcePoint"/>
+                        <mxPoint x="329.21" y="282" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;旋转完后&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;两侧等价&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="287" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font style=&quot;font-size: 14px; line-height: 200%;&quot;&gt;左侧的节点 4 的平衡因子不满足，所以要进行左旋，将节点 4 左旋转，旋转到节点 7 的下方，成为节点 7 的左孩子，此时3层变成了2层，就保持了平衡。&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="80" y="400" width="380" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="38" target="39" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="38" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;5&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="160" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="720" y="240" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="41" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;14&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="318" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="42" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="42" target="41" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;9&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="240" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;17&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="1040" y="400" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font&gt;&lt;b&gt;左旋有冲突&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
+                    <mxGeometry x="1050" y="90" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;font style=&quot;font-size: 14px; line-height: 190%;&quot;&gt;此时节点 5 的平衡因子是 -2，失衡了，所以要进行左旋。&lt;/font&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font style=&quot;font-size: 14px; line-height: 190%;&quot;&gt;但是如果直接将节点 5 左旋到节点 9 的下方，会发现节点 9 有三个子节点，分别是 5、6、14，这不符合二叉树的要求。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font style=&quot;font-size: 14px; line-height: 190%;&quot;&gt;此时产生了冲突，所以要将节点 6 摘下来，再将节点 5 左旋，左旋完成后，再将节点 6 作为节点 5 的子节点。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 190%;&quot;&gt;&lt;font style=&quot;font-size: 14px; line-height: 190%;&quot;&gt;这样，就保持了新树的左右平衡。&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="470" width="870" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;平衡因子=-2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="850" y="165" width="90" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="" style="html=1;shadow=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=5.58;dx=31.99;arrowHead=30.02;rotation=37;flipH=0;flipV=1;direction=east;perimeterSpacing=0;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="252" width="100" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.68;dx=16.19;notch=0;" parent="1" vertex="1">
+                    <mxGeometry x="1059.21" y="232" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1050" y="282" as="sourcePoint"/>
+                        <mxPoint x="1148.42" y="282" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;旋转完后&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;两侧等价&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="1059.21" y="287" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="60" target="71" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="60" target="72" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;5&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+                    <mxGeometry x="1280" y="240" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="62" target="65" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;14&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="1440" y="238" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" style="edgeStyle=none;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="70" target="60" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" style="edgeStyle=none;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" parent="1" source="70" target="62" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;17&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="1520" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;9&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="160" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" parent="1" vertex="1">
+                    <mxGeometry x="1200" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;font style=&quot;color: rgb(0, 0, 0); font-size: 18px;&quot;&gt;6&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+                    <mxGeometry x="1360" y="320" width="40" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
