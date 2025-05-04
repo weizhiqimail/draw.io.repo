@@ -64,6 +64,9 @@
         <mxCell id="awnkAKVBkHFtVjLc0B4l-18" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;E&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#66B2FF;" vertex="1" parent="1">
           <mxGeometry x="360" y="180" width="40" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="awnkAKVBkHFtVjLc0B4l-22" value="&lt;div&gt;在有向图中，边具有方向性，即 A→D 与 D←A&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;两个方向的边是相互独立的。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;spacing=2;spacingTop=3;spacingBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="300" width="280" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
