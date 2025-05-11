@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="yw41Q7D5m_Eb0VcMG9Xh" name="Page-1">
-        <mxGraphModel dx="839" dy="2567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+        <mxGraphModel dx="699" dy="2460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -37,8 +37,8 @@
                 <mxCell id="4" value="HTTP 数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCCCFF;" vertex="1" parent="48">
                     <mxGeometry x="120" y="40" width="120" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="HTTP 报文" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
-                    <mxGeometry x="170" y="10" width="70" height="30" as="geometry"/>
+                <mxCell id="7" value="HTTP 报文&lt;div&gt;应用进程数据单元(APDU)&lt;/div&gt;" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                    <mxGeometry x="100" y="10" width="150" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="48" source="8" target="14">
                     <mxGeometry relative="1" as="geometry"/>
@@ -46,7 +46,7 @@
                 <mxCell id="8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="48">
                     <mxGeometry x="100" y="160" width="160" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="10" value="TCP 报文段" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                <mxCell id="10" value="TCP 报文段 Segment" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
                     <mxGeometry x="190" y="130" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="HTTP 数据" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCCCFF;" vertex="1" parent="48">
@@ -61,7 +61,7 @@
                 <mxCell id="14" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" vertex="1" parent="48">
                     <mxGeometry x="80" y="320" width="200" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="17" value="IP 数据包" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                <mxCell id="17" value="IP 数据包Packet" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
                     <mxGeometry x="210" y="290" width="70" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99FFFF;" vertex="1" parent="48">
@@ -99,6 +99,18 @@
                 </mxCell>
                 <mxCell id="32" value="以太网首部" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
                     <mxGeometry x="80" y="524" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="&lt;font style=&quot;font-size: 14px; color: rgb(255, 51, 51);&quot;&gt;进程号&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                    <mxGeometry x="280" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="135" value="&lt;font style=&quot;font-size: 14px; color: rgb(255, 51, 51);&quot;&gt;端口号&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                    <mxGeometry x="280" y="180" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="136" value="&lt;font style=&quot;font-size: 14px; color: rgb(255, 51, 51);&quot;&gt;IP 地址&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                    <mxGeometry x="280" y="370" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="137" value="&lt;font style=&quot;font-size: 14px; color: rgb(255, 51, 51);&quot;&gt;MAC&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px; color: rgb(255, 51, 51);&quot;&gt;地址&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="48">
+                    <mxGeometry x="300" y="585" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;服务端&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
                     <mxGeometry x="825" y="39" width="70" height="30" as="geometry"/>
@@ -184,6 +196,12 @@
                             <mxPoint x="600" y="870"/>
                         </Array>
                     </mxGeometry>
+                </mxCell>
+                <mxCell id="139" value="物理层" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#FFE6CC;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="920" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="169" value="比特流 Bit" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="925" width="70" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
