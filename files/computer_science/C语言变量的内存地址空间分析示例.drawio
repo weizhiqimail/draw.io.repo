@@ -1,0 +1,252 @@
+<mxfile host="65bd71144e">
+    <diagram id="jgDgDNVaSMtQvF3QNKba" name="Page-1">
+        <mxGraphModel dx="2637" dy="944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="C 语言变量的内存地址空间分析示例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="470" y="300" width="290" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;存储的&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;数据&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="207" value="" style="edgeStyle=none;html=1;" parent="1" source="95" target="80" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;char&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;a&lt;/font&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;b&lt;/font&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt;c&lt;/font&gt;&amp;nbsp; &lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;d&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCE5FF;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="400" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="32位内存地址存储空间（二进制）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="360" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" value="" style="edgeStyle=none;html=1;" parent="1" source="98" target="97" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="98" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0000&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="400" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="138" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0001&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="440" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="139" value="" style="edgeStyle=none;html=1;" parent="1" source="140" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="140" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0010&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="480" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="141" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0011&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="520" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="142" value="" style="edgeStyle=none;html=1;" parent="1" source="143" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="143" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0100&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="560" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="144" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0101&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="600" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="145" value="" style="edgeStyle=none;html=1;" parent="1" source="146" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="146" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0110&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="640" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="147" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0111&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="680" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="148" value="" style="edgeStyle=none;html=1;" parent="1" source="149" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="720" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="149" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1000&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="720" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="150" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1001&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="760" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="151" value="" style="edgeStyle=none;html=1;" parent="1" source="152" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="800" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="152" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1010&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="800" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="153" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1011&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="840" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="154" value="" style="edgeStyle=none;html=1;" parent="1" source="155" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="880" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="155" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1100&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="880" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="156" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1101&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="920" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="157" value="" style="edgeStyle=none;html=1;" parent="1" source="158" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="120" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="158" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1110&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="960" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="159" value="0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 0000&amp;nbsp; &amp;nbsp;0000 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1111&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="-40" y="1000" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="190" value="32位内存地址存储空间（十六进制）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="191" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="400" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="440" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="480" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="520" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;7&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="680" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;6&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="640" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;5&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="600" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;4&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="560" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;B&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="840" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;A&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="800" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;9&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="760" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="202" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;8&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="720" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="203" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;F&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="1000" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="204" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;E&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="960" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="205" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;D&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="920" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="206" value="00 00 00 0&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;C&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="880" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="209" value="备注" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="360" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="210" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;可存储四个字符，每个字符占 8 位。&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;字符按照所在 ASCII 码数字存储。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fillColor=#CCE5FF;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="400" width="400" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="212" value="32位内存地址存储的数据（十六进制）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFB366;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="360" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="213" value="&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;61&lt;/font&gt; &lt;font style=&quot;color: rgb(255, 153, 51);&quot;&gt;62&lt;/font&gt; &lt;font style=&quot;color: rgb(102, 0, 204);&quot;&gt;63&lt;/font&gt; &lt;font style=&quot;color: rgb(255, 0, 255);&quot;&gt;64&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCE5FF;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="214" value="00 00 00 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;20&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFCC;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="440" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="215" value="00 00 00 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;50&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFCC;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="480" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="220" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;00 00 00 00&lt;/span&gt;&lt;/div&gt;00 80 28 40" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#E5CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="520" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="223" value="00 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="880" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="224" value="00 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="840" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="229" value="int a1 = &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;32&lt;/font&gt;;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="440" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="230" value="&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;int 占 4 个字节，&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;十进制 32 和 80 存储为 16 进制的 0x20 和 0x50。由于 0x20 和 0x50 的大小只占 1 个字节，剩下的 3 个字节要留出位置。&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fontColor=#000000;fillColor=#CCFFCC;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="440" width="400" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="231" value="int a2 = &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;80&lt;/font&gt;;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#CCFFCC;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="480" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="232" value="double a3 = &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;12.25&lt;/font&gt;;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;fillColor=#E5CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="520" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="233" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;double 占 8 个字节。12.25 的二进制为 1100.01，依据 IEEE 754 编码即 1.10001 * 2^3。符号1位，正数为 0；指数为3，64位偏移量为 1023，合计偏移量为 1026，二进制为&amp;nbsp;100 0000 0010；尾数 10001 补齐 52 位，得到&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;01000000 00101000 10000000 00000000&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; ，后边还有 32 个0。转为十六进制为&amp;nbsp;&lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0x40 28 80 00 00 00 00 00&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;fontColor=#000000;fillColor=#E5CCFF;" parent="1" vertex="1">
+                    <mxGeometry x="880" y="520" width="400" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="234" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;div style=&quot;color: rgb(8, 8, 8);&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:12.0pt;&quot;&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;typedef struct &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;User &lt;/span&gt;&lt;span style=&quot;color:#0e4a8e;&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#0e4a8e;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color:#0033b3;&quot;&gt;double &lt;/span&gt;&lt;span style=&quot;color:#871094;&quot;&gt;salary&lt;/span&gt;;&lt;br&gt;  &lt;span style=&quot;color:#0033b3;&quot;&gt;int &lt;/span&gt;&lt;span style=&quot;color:#871094;&quot;&gt;age&lt;/span&gt;;&lt;br&gt;  &lt;span style=&quot;color:#0033b3;&quot;&gt;char &lt;/span&gt;&lt;span style=&quot;color:#871094;&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;color:#3f9101;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#1750eb;&quot;&gt;20&lt;/span&gt;&lt;span style=&quot;color:#3f9101;&quot;&gt;]&lt;/span&gt;;&lt;br&gt;  &lt;span style=&quot;color:#0033b3;&quot;&gt;char &lt;/span&gt;&lt;span style=&quot;color:#871094;&quot;&gt;gender&lt;/span&gt;;&lt;br&gt;  &lt;span style=&quot;color:#0033b3;&quot;&gt;char &lt;/span&gt;&lt;span style=&quot;color:#871094;&quot;&gt;code&lt;/span&gt;&lt;span style=&quot;color:#3f9101;&quot;&gt;[&lt;/span&gt;&lt;span style=&quot;color:#1750eb;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;color:#3f9101;&quot;&gt;]&lt;/span&gt;;&lt;br&gt;&lt;span style=&quot;color:#0e4a8e;&quot;&gt;} &lt;/span&gt;&lt;span style=&quot;color:#000000;&quot;&gt;User&lt;/span&gt;;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color:#000000;&quot;&gt;User u1 &lt;/span&gt;= &lt;span style=&quot;color:#0e4a8e;&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color:#0e4a8e;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot;color:#1750eb;&quot;&gt;10000&lt;/span&gt;,&lt;br&gt;  &lt;span style=&quot;color:#1750eb;&quot;&gt;18&lt;/span&gt;,&lt;br&gt;  &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;ABC&quot;&lt;/span&gt;,&lt;br&gt;  &lt;span style=&quot;color:#067d17;&quot;&gt;&#39;m&#39;&lt;/span&gt;,&lt;br&gt;  &lt;span style=&quot;color:#067d17;&quot;&gt;&quot;M1&quot;&lt;/span&gt;,&lt;br&gt;&lt;span style=&quot;color:#0e4a8e;&quot;&gt;}&lt;/span&gt;;&lt;/pre&gt;&lt;/div&gt;&lt;/pre&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;spacingLeft=9;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="600" width="200" height="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="235" value="&lt;font&gt;name 占 20 个字节，从 05~09。u1.name 的值为 ABC，对应地址里的 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;41,42,43&lt;/font&gt;，剩下的位置全部为空。&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;char 数组的末尾一定有一个 \0 的字符，所以 name 最后也有一个 \0 字符占一个位置，所以 name 实际可存储的字符有 19 个&lt;/font&gt;。&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="720" width="320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="236" value="00 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="800" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="237" value="00 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="760" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="238" value="&lt;font style=&quot;&quot;&gt;41 42 43&lt;/font&gt; 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="720" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="239" value="6D 4D 31 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#FFCCFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="920" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="240" value="gender 占 1 个字符，值为 m，内存里的值为 &lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;6D&lt;/font&gt;。&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;code 占 3 个字符，值为 M1，内存里的值为 &lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;4D&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt; 和 &lt;/font&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;31&lt;/font&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;。&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;fillColor=#FFCCFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="840" width="320" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="243" value="00 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCCCCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="960" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="244" value="12 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFCC;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="680" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="245" value="age 占 4 个字节，值为 12，十六进制下也是 12。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFCC;align=left;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="680" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="246" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;00 00 00 00&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;00 88 C3 40&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFFF;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="600" width="240" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="247" value="double 占 8 个字节， 10000 转为机器码为&amp;nbsp;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;0x00 00 00 00 00 88 C3 40&lt;/font&gt;。&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCFFFF;align=left;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="600" width="320" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="248" value="结构体对齐占位的空间。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#CCCCCC;fontColor=#000000;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="960" width="320" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="251" value="00 00 00 00" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="1000" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="252" value="未被使用的内存空间。" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="1000" width="520" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="249" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#FF0000;strokeWidth=2;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="600" width="760" height="400" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

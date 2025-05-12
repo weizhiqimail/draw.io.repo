@@ -1,0 +1,13 @@
+<mxfile host="65bd71144e">
+    <diagram id="LERErozqXdLCPvhTHXEQ" name="Page-1">
+        <mxGraphModel dx="1189" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="高速缓存 Cache 的地址映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="435" y="165" width="220" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
