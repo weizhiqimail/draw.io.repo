@@ -1,0 +1,178 @@
+<mxfile host="65bd71144e">
+    <diagram id="uxVwC1siCvC3Ia_YClyH" name="Page-1">
+        <mxGraphModel dx="1274" dy="1133" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="高速缓存Cache与主存块之间的映射方式-直接映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="470" y="40" width="410" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="第0行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="280" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Cache" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="370" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="第1行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="300" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="第2行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="320" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="340" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="360" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="第2&lt;sup&gt;n&lt;/sup&gt;-1行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="380" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="主存" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="530" y="250" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="第0行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="280" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="第1行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="300" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="第2行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="320" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="340" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="360" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="第2&lt;sup&gt;c&lt;/sup&gt;-1行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="380" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="400" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="420" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="440" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="460" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="..." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="480" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="第2&lt;sup&gt;m&lt;/sup&gt;-1行" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="500" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="主存块号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="280" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="块内地址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="280" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: nowrap;&quot;&gt;主存地址&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="280" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 204, 0);&quot;&gt;m 位&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 204, 0);&quot;&gt;b 位&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="320" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Cache 行号" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="800" y="360" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="块内地址" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="360" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="&lt;span style=&quot;color: rgb(0, 0, 0); text-wrap-mode: nowrap;&quot;&gt;Cache地址&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="360" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 204, 0);&quot;&gt;c 位&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="830" y="400" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 204, 0);&quot;&gt;b 位&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="930" y="400" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;div style=&quot;line-height: 200%;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;主存块与 Cache 行完全一致，存储单元的个数一致。&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;因此块内地址完全相同。&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="480" width="290" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="直接映射" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="600" y="120" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font style=&quot;color: rgb(204, 102, 0);&quot;&gt;Cache 行号 = 主存块号 mod Cache 行数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="200" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="&lt;p data-pm-slice=&quot;1 1 [&amp;quot;bulletList&amp;quot;,null,&amp;quot;listItem&amp;quot;,null]&quot; data-prosemirror-node-block=&quot;true&quot; data-prosemirror-node-name=&quot;paragraph&quot; data-prosemirror-content-type=&quot;node&quot;&gt;&lt;span data-prosemirror-mark-name=&quot;strong&quot; data-prosemirror-content-type=&quot;mark&quot;&gt;&lt;font style=&quot;color: rgb(255, 0, 0);&quot;&gt;每个主存块映射到 Cache 的固定行中。&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="170" width="240" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="tag" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="360" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 14px; color: rgb(0, 204, 0);&quot;&gt;m - c 位&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="750" y="400" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#0000FF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="800.52" y="410" as="sourcePoint"/>
+                        <mxPoint x="801" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;strokeColor=#0000FF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="1000" y="410" as="sourcePoint"/>
+                        <mxPoint x="1000.48" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="51" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="51" target="43" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="tag" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;strokeColor=#FF0000;dashed=1;dashPattern=1 1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="280" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;tag 位数 = log&lt;sub style=&quot;line-height: 200%;&quot;&gt;2&lt;/sub&gt; (主存大小/Cache大小)&lt;/font&gt;&lt;div style=&quot;line-height: 200%;&quot;&gt;&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;地址映射表 = 标记阵列 = (tag 位 + 有效位 + 一致性维护位 + 替换算法位)&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="680" width="480" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Cache 行的内容&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="820" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="360" y="760" width="680" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="tag" style="rounded=0;whiteSpace=wrap;html=1;" parent="74" vertex="1">
+                    <mxGeometry width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="76" value="有效位" style="rounded=0;whiteSpace=wrap;html=1;" parent="74" vertex="1">
+                    <mxGeometry x="80" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="一致性维护位" style="rounded=0;whiteSpace=wrap;html=1;" parent="74" vertex="1">
+                    <mxGeometry x="160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="替换算法位" style="rounded=0;whiteSpace=wrap;html=1;" parent="74" vertex="1">
+                    <mxGeometry x="280" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="数据" style="rounded=0;whiteSpace=wrap;html=1;" parent="74" vertex="1">
+                    <mxGeometry x="400" width="280" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="tag" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="600" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="Cache 行号" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="600" width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="块内地址" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="600" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="主存地址" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="605" width="60" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
