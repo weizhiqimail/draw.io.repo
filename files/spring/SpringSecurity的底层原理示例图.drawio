@@ -1,0 +1,43 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.5 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.5">
+  <diagram name="第 1 页" id="Gjz7sh1eHrMj2TgTLRpm">
+    <mxGraphModel dx="3157" dy="1838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-1" value="SpringSecurity的底层原理示例图" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.spring.io/spring-security/reference/_images/servlet/architecture/filterchain.png;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="238.57" height="344.44" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-3" value="Filter Chain&lt;div&gt;过滤链&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.spring.io/spring-security/reference/_images/servlet/architecture/delegatingfilterproxy.png;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="239.37" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-5" value="Delegeting Filter Proxy&lt;div&gt;委托过滤代理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="320" y="680" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.spring.io/spring-security/reference/_images/servlet/architecture/filterchainproxy.png;" vertex="1" parent="1">
+          <mxGeometry x="600" y="280" width="490.71" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-8" value="Filter Chain Proxy&lt;div&gt;过滤链代理&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="610" y="680" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.spring.io/spring-security/reference/_images/servlet/architecture/securityfilterchain.png;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="280" width="540.16" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-10" value="Security Filter Chain&lt;div&gt;安全过滤链&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="680" width="470" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-11" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.spring.io/spring-security/reference/_images/servlet/architecture/multi-securityfilterchain.png;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="280" width="583.83" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="d9x3kZd5hb4vq6pSMRFv-12" value="Multiple Security Filter Chain&lt;div&gt;多个安全过滤链&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="680" width="470" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
